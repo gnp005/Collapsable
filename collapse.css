@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+:root{
+  font-size: 16px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background: rgb(228, 241, 254);
+}
+
+.container ul{
+  padding: 2rem;
+}
+
+.container ul li{
+  background: rgb(1,50,67);
+  list-style: none;
+  border: 0.05rem solid black;
+  text-decoration: none;
+}
+
+.container ul li a h2{
+  box-sizing: border-box;
+  color: white;
+  max-width: 60vw;
+  padding: 1rem;
+  background: rgba(0,0,0,0.2)
+}
+
+.collapsable{
+  height: auto;
+  width: 60vw;
+  background: rgba(0,0,0,0.25)
+}
+
+.list-item-body{
+  display: none;
+  text-align: center;
+}
+
+.none{
+  display: block;
+  font-size: 1rem;
+  color: white;
+  width: 50vw;
+}
